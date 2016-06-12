@@ -17,7 +17,18 @@ exports.register = function (server, options, next) {
         method: 'GET',
         path: '/sentiment',
         handler: function (request, reply) {
-          reply(sentiment(request.query.text || ''));
+
+          let data = null;
+
+          try{
+            data = sentiment(request.query.text || '');
+          } catch(e){
+            data = {
+              error: e
+            };
+          }
+
+          reply(data);
         }
     });
 
