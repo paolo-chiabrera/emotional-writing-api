@@ -1,0 +1,36 @@
+{
+  "name": "emotionalWriting",
+  "version": "1.0.0",
+  "description": "Sentiment API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "lab -c -L",
+    "test-cover": "lab -c -r html -o ./test/artifacts/coverage.html && open ./test/artifacts/coverage.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paolo-chiabrera/emotional-writing-api.git"
+  },
+  "author": "Paolo Chiabrera <paolo.chiabrera@gmail.com>",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/paolo-chiabrera/emotional-writing-api/issues"
+  },
+  "homepage": "https://github.com/paolo-chiabrera/emotional-writing-api",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "confidence": "3.x.x",
+    "glue": "3.x.x",
+    "hapi": "13.x.x",
+    "hoek": "3.x.x",
+    "sentiment": "^1.0.6"
+  },
+  "devDependencies": {
+    "code": "2.x.x",
+    "lab": "10.x.x",
+    "nodemon": "1.x.x"
+  }
+}
