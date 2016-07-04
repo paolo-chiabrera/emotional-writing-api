@@ -7,7 +7,7 @@ const criteria = {
     env: process.env.NODE_ENV
 };
 
-const port = 9040;
+const port = 8080;
 
 const config = {
     $meta: 'This file configures the plot device.',
