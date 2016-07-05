@@ -1,6 +1,6 @@
-# emotionalWriting
+# Sentiment API
 
-Sentiment API
+Node.js API wrapper for Sentiment library
 
 [![Dependency Status](https://david-dm.org/paolo-chiabrera/emotionalWriting.svg)](https://david-dm.org/paolo-chiabrera/emotionalWriting)
 [![devDependency Status](https://david-dm.org/paolo-chiabrera/emotionalWriting/dev-status.svg?theme=shields.io)](https://david-dm.org/paolo-chiabrera/emotionalWriting#info=devDependencies)
